@@ -80,7 +80,6 @@ footer h3 {
 /* end style for footer */
 
 /* begin for hero style */
-
 .about-me-bio {
     width: 100%;
     margin: 0 auto;
@@ -114,3 +113,24 @@ footer h3 {
     padding: 10px 10px 10px 10px;
     float: right;
 }
+/* end style for hero */
+
+/*start style for projects */
+.projects-info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid var(--primary-color);
+}
+
+.refactor img {
+    width: 75%;
+}
+
+.learning img {
+    width: 50%;
+}
+
+/* end style for projects */
