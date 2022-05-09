@@ -98,6 +98,7 @@ footer h3 {
     border-bottom: 2px solid;
     border-color: var(--secondary-color);
 }
+
 .about-me-bio img {
     width: 20%;
     float: left;
@@ -107,10 +108,9 @@ footer h3 {
     line-height: 1.5;
     color: var(--primary-color);
     width: 75%;
-    padding: 25px;
     font-size: 20px;
     margin: 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
     float: right;
 }
 /* end style for hero */
