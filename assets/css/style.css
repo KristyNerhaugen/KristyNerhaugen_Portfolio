@@ -69,3 +69,23 @@ footer h3 {
     margin: 0;
 }
 /* end style for footer */
+
+/* begin for hero style */
+
+.about-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.about-me-bio {
+    padding: 25px;
+    font-size: 20px;
+    
+}
