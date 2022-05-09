@@ -98,20 +98,22 @@ footer h3 {
     border-bottom: 2px solid;
     border-color: var(--secondary-color);
 }
-
+.about-me-subdiv {
+    display: flex;
+}
 .about-me-bio img {
-    width: 20%;
-    float: left;
+   width: 75%;
+   height: auto;
+   margin: 20px;
+   padding: 10px 10px;
 }
 
 .about-me-bio p {
     line-height: 1.5;
     color: var(--primary-color);
-    width: 75%;
     font-size: 20px;
     margin: 20px;
     padding: 10px 10px;
-    float: right;
 }
 /* end style for hero */
 
@@ -130,7 +132,8 @@ footer h3 {
 }
 
 .learning img {
-    width: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .three img {
