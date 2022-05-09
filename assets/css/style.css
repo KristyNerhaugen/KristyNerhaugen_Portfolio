@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #391F5A;
-    --secondary-color: #3F5A1F;
+    --primary-color: #532c77;
+    --secondary-color: #AAC98C;
+    --tertiary-color: #B5B5DE;
 }
 
 * {
@@ -80,15 +81,17 @@ footer h3 {
 
 /* begin for hero style */
 
-.about-me {
+.about-me-bio {
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: var(--tertiary-color);
+    border: solid var(--primary-color);
 }
 
-.about-me h2 {
+.about-me-bio h2 {
     font-size: 40px;
     color: var(--primary-color);
     margin-bottom: 20px;
@@ -96,18 +99,18 @@ footer h3 {
     border-bottom: 2px solid;
     border-color: var(--secondary-color);
 }
-.about-me img {
-    width: 100%;
-    position: static;
+.about-me-bio img {
+    width: 20%;
+    float: left;
 }
 
 .about-me-bio p {
     line-height: 1.5;
     color: var(--primary-color);
     width: 75%;
-    font-size: 25px;
     padding: 25px;
     font-size: 20px;
-    position: static;
-
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    float: right;
 }
