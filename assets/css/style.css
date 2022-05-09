@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #391F5A;
+    --secondary-color: #3F5A1F;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +10,20 @@
 }
 
 body {
-    color: #391F5A;
+    color: var(--primary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* styles for header and nav */
+header {
+    padding: 20x 30px;
+    background-color: var(--secondary-color);
+}
+/* end of header and nav styles */
+
+/* begin style for footer */ 
+footer {
+    padding: 10px 10px;
+    background-color: var(--secondary-color);
+}
+/* end style for footer */
