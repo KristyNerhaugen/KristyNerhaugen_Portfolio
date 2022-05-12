@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #532c77;
-    --secondary-color: #AAC98C;
-    --tertiary-color: #B5B5DE;
+    --primary-color: #0F2676;
+    --secondary-color: #9AB6EA;
+    --tertiary-color: #A8ABAF;
+    --quaternary-color: #8998AD;
 }
 
 * {
@@ -125,8 +126,17 @@ footer h3 {
     justify-content: space-around;
     flex-wrap: wrap;
     border: solid var(--primary-color);
+    background-color: var(--quaternary-color);
 }
 
+.project-info h2 {
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding: 0 20px 10px 20px;
+    border-bottom: 2px solid;
+    border-color: var(--secondary-color);
+}
 .refactor img {
     width: 75%;
 }
@@ -148,3 +158,9 @@ footer h3 {
     width: 50%;
 }
 /* end style for projects */
+
+/* begin style for contact information section */
+
+.contact-information {
+    background-color: var(--tertiary-color);
+}
