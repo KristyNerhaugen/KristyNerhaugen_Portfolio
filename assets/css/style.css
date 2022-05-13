@@ -85,10 +85,11 @@ footer h3 {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: var(--tertiary-color);
+    align-items: center;
     border: solid var(--primary-color);
+    background-color: var(--quaternary-color);
 }
 
 .about-me-bio h2 {
@@ -96,7 +97,7 @@ footer h3 {
     color: var(--primary-color);
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
-    border-bottom: 2px solid;
+    border-right: 2px solid;
     border-color: var(--secondary-color);
 }
 .about-me-subdiv {
@@ -123,8 +124,9 @@ footer h3 {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
     border: solid var(--primary-color);
     background-color: var(--quaternary-color);
 }
@@ -134,7 +136,7 @@ footer h3 {
     color: var(--primary-color);
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
-    border-bottom: 2px solid;
+    border-right: 2px solid;
     border-color: var(--secondary-color);
 }
 
@@ -143,8 +145,6 @@ footer h3 {
     color: var(--primary-color);
     margin-bottom: 20px;
     padding: 20px;
-   /* border-bottom: 2px solid;
-    border-color: var(--secondary-color); */
 }
 .refactor img {
     width: 75%;
@@ -156,15 +156,18 @@ footer h3 {
 }
 
 .three img {
-    width: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .four img {
-    width: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .five img {
-    width: 50%;
+    width: 100px;
+    height: 100px;
 }
 /* end style for projects */
 
@@ -174,16 +177,18 @@ footer h3 {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
     border: solid var(--primary-color);
-    background-color: var(--tertiary-color);
+    background-color: var(--quaternary-color);
 }
 .contact-information h2 {
+    font-size: 40px;
     color: var(--primary-color);
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
-    border-bottom: 2px solid;
+    border-right: 2px solid;
     border-color: var(--secondary-color);
 }
 
