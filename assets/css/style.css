@@ -80,7 +80,24 @@ footer h3 {
 }
 /* end style for footer */
 
-/* begin for hero style */
+/* begin Hero */
+
+/* add image information here
+.hero {
+    background-image: 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    alighn-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+
+} */
+
+/* end Hero */
+
+/* begin for About mestyle */
 .about-me-bio {
     width: 100%;
     margin: 0 auto;
@@ -117,7 +134,7 @@ footer h3 {
     margin: 20px;
     padding: 10px 10px;
 }
-/* end style for hero */
+/* end style for About Me */
 
 /*start style for projects */
 .projects-info {
