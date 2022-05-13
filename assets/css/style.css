@@ -140,25 +140,32 @@ footer h3 {
     border-color: var(--secondary-color);
 }
 
+.refactor {
+    padding: 15px;
+}
+
 .refactor h3 {
     font-size: 20px;
     color: var(--primary-color);
     margin-bottom: 5 px;
-    padding: 10px;  
+    padding: 10px;
+    text-align: center;  
 }
 
 .refactor img {
-    width: 75%;
+    width: 100%;
 }
 
 .small {
     padding: 15px;
 }
+
 .small h3 {
     font-size: 20px;
     color: var(--primary-color);
     margin-bottom: 5 px;
     padding: 10px;  
+    text-align: center;
 }
 .small img {
     width: 100px;
