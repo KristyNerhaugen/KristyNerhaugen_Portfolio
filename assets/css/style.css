@@ -59,6 +59,8 @@ header nav ul li a {
     margin: 0 20px;
     font-weight: lighter;
     font-size: 20px;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 /* end of header and nav styles */
 
@@ -82,18 +84,23 @@ footer h3 {
 
 /* begin Hero */
 
-/* add image information here
 .hero {
-    background-image: 
+    height: 120px;
+    background-image: url("../images/flowers.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    alighn-items: flex-start;
+    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+} 
 
-} */
+.hero h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /* end Hero */
 
@@ -106,7 +113,7 @@ footer h3 {
     justify-content: space-around;
     align-items: center;
     border: solid var(--primary-color);
-    background-color: var(--quaternary-color);
+    background-color: var(--tertiary-color);
 }
 
 .about-me-bio h2 {
@@ -115,7 +122,7 @@ footer h3 {
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
     border-right: 2px solid;
-    border-color: var(--secondary-color);
+    border-color: var(--primary-color);
 }
 .about-me-subdiv {
     display: flex;
@@ -154,7 +161,7 @@ footer h3 {
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
     border-right: 2px solid;
-    border-color: var(--secondary-color);
+    border-color: var(--primary-color);
 }
 
 .refactor {
@@ -170,7 +177,8 @@ footer h3 {
 }
 
 .refactor img {
-    width: 100%;
+    width: 300px; 
+    height: 155px;
 }
 
 .small {
@@ -201,7 +209,7 @@ footer h3 {
     justify-content: space-around;
     align-items: center;
     border: solid var(--primary-color);
-    background-color: var(--quaternary-color);
+    background-color: var(--tertiary-color);
 }
 .contact-information h2 {
     font-size: 40px;
@@ -209,7 +217,7 @@ footer h3 {
     margin-bottom: 20px;
     padding: 0 20px 10px 20px;
     border-right: 2px solid;
-    border-color: var(--secondary-color);
+    border-color: var(--primary-color);
 }
 
 .contact-information p {
