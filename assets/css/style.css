@@ -140,35 +140,31 @@ footer h3 {
     border-color: var(--secondary-color);
 }
 
-.projects-info h3 {
+.refactor h3 {
     font-size: 20px;
     color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 5 px;
+    padding: 10px;  
 }
+
 .refactor img {
     width: 75%;
 }
 
-.learning img {
+.small {
+    padding: 15px;
+}
+.small h3 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 5 px;
+    padding: 10px;  
+}
+.small img {
     width: 100px;
     height: 100px;
 }
 
-.three img {
-    width: 100px;
-    height: 100px;
-}
-
-.four img {
-    width: 100px;
-    height: 100px;
-}
-
-.five img {
-    width: 100px;
-    height: 100px;
-}
 /* end style for projects */
 
 /* begin style for contact information section */
