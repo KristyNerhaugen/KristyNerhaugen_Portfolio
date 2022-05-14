@@ -116,6 +116,11 @@ footer h3 {
     background-color: var(--tertiary-color);
 }
 
+ .about-me-subdiv {
+    display: flex;
+
+} 
+
 .about-me-bio h2 {
     font-size: 48px;
     color: var(--primary-color);
@@ -124,9 +129,7 @@ footer h3 {
     border-right: 2px solid;
     border-color: var(--primary-color);
 }
-.about-me-subdiv {
-    display: flex;
-}
+
 .about-me-bio img {
    width: 75%;
    height: auto;
@@ -155,8 +158,11 @@ footer h3 {
     background-color: var(--quaternary-color);
 }
 
-.example-projects {
+.projects-subdiv {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .projects-info h2 {
@@ -282,6 +288,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
 
 }
 
