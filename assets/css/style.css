@@ -116,22 +116,23 @@ footer h3 {
     background-color: var(--tertiary-color);
 }
 
- .about-me-subdiv {
-    display: flex;
-
-} 
-
 .about-me-bio h2 {
     font-size: 48px;
     color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 0 20px 10px 20px;
+    padding: 0 10px;
     border-right: 2px solid;
     border-color: var(--primary-color);
 }
 
+.about-me-subdiv {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .about-me-bio img {
-   width: 75%;
+   width: 20vw;
    height: auto;
    margin: 20px;
    padding: 10px 10px;
@@ -158,20 +159,19 @@ footer h3 {
     background-color: var(--quaternary-color);
 }
 
+.projects-info h2 {
+    font-size: 48px;
+    color: var(--primary-color);
+    padding: 0 10px;
+    border-right: 2px solid;
+    border-color: var(--primary-color);
+}
+
 .projects-subdiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-}
-
-.projects-info h2 {
-    font-size: 48px;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 0 20px 10px 20px;
-    border-right: 2px solid;
-    border-color: var(--primary-color);
 }
 
 .refactor {
@@ -217,21 +217,29 @@ footer h3 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     border: solid var(--primary-color);
     background-color: var(--tertiary-color);
 }
+
 .contact-information h2 {
     font-size: 48px;
     color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 0 20px 10px 20px;
+    padding: 0 10px;
     border-right: 2px solid;
     border-color: var(--primary-color);
 }
 
+.contact-subdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
 .contact-information p {
     font-size: 20px;
+    padding: 10px;
 }
 /* end style for contact information section */
 
