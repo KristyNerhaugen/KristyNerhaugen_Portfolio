@@ -56,7 +56,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    padding: 10px 15px; /* when this was margin, it seemed to work better? */
+    margin: 10px 15px;
     font-weight: lighter;
     font-size: 20px;
     border-bottom: 2px solid var(--primary-color);
@@ -129,7 +129,7 @@ footer h3 {
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
-}
+} 
 
 .about-me-bio img {
    width: 20vw;
@@ -144,6 +144,7 @@ footer h3 {
     font-size: 20px;
     margin: 20px;
     padding: 10px 10px;
+    text-align: center;
 }
 /* end style for About Me */
 
@@ -170,8 +171,9 @@ footer h3 {
 .projects-subdiv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: row;;
 }
 
 .refactor {
@@ -187,8 +189,7 @@ footer h3 {
 }
 
 .refactor img {
-    width: 300px; 
-    height: 155px;
+    width: 100%;
 }
 
 .small {
@@ -240,6 +241,7 @@ footer h3 {
 .contact-information p {
     font-size: 20px;
     padding: 10px;
+    text-align: end;
 }
 /* end style for contact information section */
 
@@ -280,6 +282,10 @@ footer {
     font-size: 40px;
 }
 
+.about-me-subdiv {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .about-me-bio {
     width: 100%;
 }
@@ -292,18 +298,42 @@ footer {
 .contact-information {
     width: 100%;
     flex: 0 70%;
-}
+}  
 }
 
 @media screen and (max-width: 768px) {
-    section {
+section {
         padding: 30px 15px;
-    }
+}
 
+.projects-subdiv {
+        flex-direction: column;
+}
+
+.contact-subdiv {
+        flex-direction: column;
+}  
 }
 
 @media screen and (max-width: 575px) {
+.hero h2 {
+    font-size: 40px;
+}
 
+.header h2 {
+    font-size: 40px;
+}
 
+.projects-info h2 {
+    font-size: 40px;
+}
+
+.refactor img {
+    width: 225px; 
+    height: 100px;
+}
+.contact-information h2 {
+    font-size: 40px;
+}
 }
  /* end media queries */
