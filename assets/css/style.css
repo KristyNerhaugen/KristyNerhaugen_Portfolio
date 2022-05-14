@@ -104,14 +104,14 @@ footer h3 {
 
 /* end Hero */
 
-/* begin for About mestyle */
+/* begin for About me style */
 .about-me-bio {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     border: solid var(--primary-color);
     background-color: var(--tertiary-color);
 }
@@ -150,9 +150,13 @@ footer h3 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     border: solid var(--primary-color);
     background-color: var(--quaternary-color);
+}
+
+.example-projects {
+    display: flex;
 }
 
 .projects-info h2 {
@@ -223,5 +227,66 @@ footer h3 {
 .contact-information p {
     font-size: 20px;
 }
-
 /* end style for contact information section */
+
+/* begin media queries for responsive design */
+
+@media screen and (max-width: 980px) {
+header {
+    padding-bottom: 0;
+    justify-content: center;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+header nav ul li a {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    width: 100%;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.about-me-bio {
+    width: 100%;
+}
+
+.projects-info {
+    width: 100%;
+    flex: 0 70%;
+}
+
+.contact-information {
+    width: 100%;
+    flex: 0 70%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+}
+ /* end media queries */
