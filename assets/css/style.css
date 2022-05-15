@@ -62,6 +62,12 @@ header nav ul li a {
     border-bottom: 2px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+header nav ul li a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+
 /* end of header and nav styles */
 
 /* begin style for footer */ 
@@ -192,6 +198,10 @@ footer h3 {
     width: 100%;
 }
 
+.refactor img:hover {
+   opacity: .7;
+}
+
 .small {
     padding: 15px;
 }
@@ -207,6 +217,10 @@ footer h3 {
     width: 100px;
     height: 100px;
 }
+
+.small img:hover {
+    opacity: .7;
+ }
 
 /* end style for projects */
 

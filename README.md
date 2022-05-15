@@ -2,7 +2,7 @@
 
 ## For this challenge,  
 
-### This link will take you to my deployed portfolio
+### This link will take you to my deployed portfolio:
 
 [See deployed site here](https://kristynerhaugen.github.io/KristyNerhaugen_Portfolio/)
 
