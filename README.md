@@ -13,9 +13,9 @@
 ### The website is to be used to access the project I've worked on. The five images can be clicked on to get access to deployed projects. For now, only two of the images link to deployed sites, but that will be updated as I expand my portfolio. 
 
 ### These three images show the site: 
-#### ![Screen Shot One](assets/images/ScreenShot_1.png)
-#### ![Screen Shot Two](assets/images/ScreenShot_2.png)
-#### ![Screen Shot Three](assets/images/ScreenShot_3.png) 
+#### ![Screen Shot One](assets/images/ScreenShot_One.png)
+#### ![Screen Shot Two](assets/images/ScreenShot_Two.png)
+#### ![Screen Shot Three](assets/images/ScreenShot_Three.png) 
 
 ## Credits
 ### This site was created using what I learned in the BootCamp Spot modules and information I learned in BootCamp classes. I occasionally referred to the code used in the modules for the Run Buddy project to help guide my code for this portfolio. I also referred to W3 Schools (https://www.w3schools.com/) and MDN (https://developer.mozilla.org/en-US/) at times. This Flex website also helped me to better understand Flex when I set up the site: https://flexbox.malven.co/. The placeholder images used for Example Three, Example Four, and Example Five are provided for free from Lorem Picsum (https://picsum.photos/). I used Coolors (https://coolors.co/000505-3b3355-5d5d81-bfcde0-fefcfd) to determine a color palette. 
