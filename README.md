@@ -13,7 +13,7 @@
 ### The website is to be used to access the project I've worked on. The five images can be clicked on to get access to deployed projects. For now, only two of the images link to deployed sites, but that will be updated as I expand my portfolio. 
 
 ### These three images show the site: 
-#### ![Screen Shot One](assets/images/ScreenShot_One.png)
+#### ![Screen Shot One](assets/images/ScreenShotOne.png)
 #### ![Screen Shot Two](assets/images/ScreenShot_Two.png)
 #### ![Screen Shot Three](assets/images/ScreenShot_Three.png) 
 
