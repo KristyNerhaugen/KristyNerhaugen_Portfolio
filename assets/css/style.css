@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #0F2676;
-    --secondary-color: #9AB6EA;
-    --tertiary-color: #A8ABAF;
-    --quaternary-color: #8998AD;
+    --primary-color: #0B2027;
+    --secondary-color: #40798C;
+    --tertiary-color: #70A9A1;
+    --quaternary-color: #CFD7C7;
 }
 
 * {
@@ -216,8 +216,8 @@ footer h3 {
     text-align: center;
 }
 .small img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 125px;
 }
 
 .small img:hover {
