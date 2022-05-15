@@ -181,7 +181,7 @@ footer h3 {
 }
 
 .refactor h3 {
-    font-size: 20px;
+    font-size: 28px;
     color: var(--primary-color);
     margin-bottom: 5 px;
     padding: 10px;
@@ -306,8 +306,23 @@ section {
         padding: 30px 15px;
 }
 
+.about-me-bio {
+    flex-wrap: wrap;
+}
+
+.projects-info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .projects-subdiv {
         flex-direction: column;
+}
+
+.contact-information {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-subdiv {
@@ -317,23 +332,28 @@ section {
 
 @media screen and (max-width: 575px) {
 .hero h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .header h2 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.about-me-bio h2 {
+    font-size: 30px;
 }
 
 .projects-info h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .refactor img {
     width: 225px; 
     height: 100px;
 }
+
 .contact-information h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 }
  /* end media queries */
