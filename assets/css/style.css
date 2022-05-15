@@ -66,6 +66,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    opacity: 0.5;
   }
 
 /* end of header and nav styles */
@@ -106,6 +107,7 @@ footer h3 {
     color: var(--primary-color);
     font-size: 48px;
     font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(168, 171, 175, 1);
 }
 
 /* end Hero */
@@ -199,7 +201,7 @@ footer h3 {
 }
 
 .refactor img:hover {
-   opacity: .7;
+   opacity: 0.7;
 }
 
 .small {
@@ -219,7 +221,7 @@ footer h3 {
 }
 
 .small img:hover {
-    opacity: .7;
+    opacity: 0.7;
  }
 
 /* end style for projects */
